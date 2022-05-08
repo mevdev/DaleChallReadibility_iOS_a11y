@@ -1,0 +1,645 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8063FA85282383260084FE1B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8063FA84282383260084FE1B /* AppDelegate.swift */; };
+		8063FA87282383260084FE1B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8063FA86282383260084FE1B /* SceneDelegate.swift */; };
+		8063FA89282383260084FE1B /* TabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8063FA88282383260084FE1B /* TabViewController.swift */; };
+		8063FA8E282383280084FE1B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8063FA8D282383280084FE1B /* Assets.xcassets */; };
+		8063FA91282383280084FE1B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8063FA8F282383280084FE1B /* LaunchScreen.storyboard */; };
+		8063FA9C282383280084FE1B /* DaleChallTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8063FA9B282383280084FE1B /* DaleChallTests.swift */; };
+		8063FAA6282383280084FE1B /* DaleChallUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8063FAA5282383280084FE1B /* DaleChallUITests.swift */; };
+		8063FAA8282383280084FE1B /* DaleChallUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8063FAA7282383280084FE1B /* DaleChallUITestsLaunchTests.swift */; };
+		80BA8B7D2823BC2E00CF83DE /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80BA8B7C2823BC2E00CF83DE /* SearchViewController.swift */; };
+		80BA8B7F2823BC3B00CF83DE /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80BA8B7E2823BC3B00CF83DE /* InfoViewController.swift */; };
+		80BA8B812823BC4F00CF83DE /* CalcViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80BA8B802823BC4F00CF83DE /* CalcViewController.swift */; };
+		80BA8B862823BEA400CF83DE /* DaleChallCalc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80BA8B852823BEA400CF83DE /* DaleChallCalc.swift */; };
+		80BA8B882823C5EF00CF83DE /* dale_chall_easy.txt in Resources */ = {isa = PBXBuildFile; fileRef = 80BA8B872823C5EE00CF83DE /* dale_chall_easy.txt */; };
+		80BA8B8A282613DA00CF83DE /* SearchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80BA8B89282613DA00CF83DE /* SearchViewModel.swift */; };
+		80BA8B8D2826EA7500CF83DE /* WordDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80BA8B8C2826EA7500CF83DE /* WordDetailViewController.swift */; };
+		80BA8B8F2826EB6100CF83DE /* WordDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80BA8B8E2826EB6100CF83DE /* WordDetailViewModel.swift */; };
+		80BA8B912826EC9000CF83DE /* DictionaryAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80BA8B902826EC9000CF83DE /* DictionaryAPI.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8063FA98282383280084FE1B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8063FA79282383260084FE1B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8063FA80282383260084FE1B;
+			remoteInfo = DaleChall;
+		};
+		8063FAA2282383280084FE1B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8063FA79282383260084FE1B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8063FA80282383260084FE1B;
+			remoteInfo = DaleChall;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8063FA81282383260084FE1B /* DaleChall.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DaleChall.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8063FA84282383260084FE1B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8063FA86282383260084FE1B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		8063FA88282383260084FE1B /* TabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewController.swift; sourceTree = "<group>"; };
+		8063FA8D282383280084FE1B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8063FA90282383280084FE1B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8063FA92282383280084FE1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8063FA97282383280084FE1B /* DaleChallTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DaleChallTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8063FA9B282383280084FE1B /* DaleChallTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DaleChallTests.swift; sourceTree = "<group>"; };
+		8063FAA1282383280084FE1B /* DaleChallUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DaleChallUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8063FAA5282383280084FE1B /* DaleChallUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DaleChallUITests.swift; sourceTree = "<group>"; };
+		8063FAA7282383280084FE1B /* DaleChallUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DaleChallUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		80BA8B7C2823BC2E00CF83DE /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		80BA8B7E2823BC3B00CF83DE /* InfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
+		80BA8B802823BC4F00CF83DE /* CalcViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalcViewController.swift; sourceTree = "<group>"; };
+		80BA8B852823BEA400CF83DE /* DaleChallCalc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DaleChallCalc.swift; sourceTree = "<group>"; };
+		80BA8B872823C5EE00CF83DE /* dale_chall_easy.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = dale_chall_easy.txt; sourceTree = "<group>"; };
+		80BA8B89282613DA00CF83DE /* SearchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewModel.swift; sourceTree = "<group>"; };
+		80BA8B8C2826EA7500CF83DE /* WordDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordDetailViewController.swift; sourceTree = "<group>"; };
+		80BA8B8E2826EB6100CF83DE /* WordDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordDetailViewModel.swift; sourceTree = "<group>"; };
+		80BA8B902826EC9000CF83DE /* DictionaryAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DictionaryAPI.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8063FA7E282383260084FE1B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8063FA94282383280084FE1B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8063FA9E282383280084FE1B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8063FA78282383260084FE1B = {
+			isa = PBXGroup;
+			children = (
+				8063FA83282383260084FE1B /* DaleChall */,
+				8063FA9A282383280084FE1B /* DaleChallTests */,
+				8063FAA4282383280084FE1B /* DaleChallUITests */,
+				8063FA82282383260084FE1B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8063FA82282383260084FE1B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8063FA81282383260084FE1B /* DaleChall.app */,
+				8063FA97282383280084FE1B /* DaleChallTests.xctest */,
+				8063FAA1282383280084FE1B /* DaleChallUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8063FA83282383260084FE1B /* DaleChall */ = {
+			isa = PBXGroup;
+			children = (
+				8063FA84282383260084FE1B /* AppDelegate.swift */,
+				8063FA86282383260084FE1B /* SceneDelegate.swift */,
+				8063FA88282383260084FE1B /* TabViewController.swift */,
+				80BA8B8B2826EA5D00CF83DE /* SearchTab */,
+				80BA8B7E2823BC3B00CF83DE /* InfoViewController.swift */,
+				80BA8B802823BC4F00CF83DE /* CalcViewController.swift */,
+				80BA8B852823BEA400CF83DE /* DaleChallCalc.swift */,
+				8063FA8D282383280084FE1B /* Assets.xcassets */,
+				8063FA8F282383280084FE1B /* LaunchScreen.storyboard */,
+				80BA8B872823C5EE00CF83DE /* dale_chall_easy.txt */,
+				8063FA92282383280084FE1B /* Info.plist */,
+			);
+			path = DaleChall;
+			sourceTree = "<group>";
+		};
+		8063FA9A282383280084FE1B /* DaleChallTests */ = {
+			isa = PBXGroup;
+			children = (
+				8063FA9B282383280084FE1B /* DaleChallTests.swift */,
+			);
+			path = DaleChallTests;
+			sourceTree = "<group>";
+		};
+		8063FAA4282383280084FE1B /* DaleChallUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8063FAA5282383280084FE1B /* DaleChallUITests.swift */,
+				8063FAA7282383280084FE1B /* DaleChallUITestsLaunchTests.swift */,
+			);
+			path = DaleChallUITests;
+			sourceTree = "<group>";
+		};
+		80BA8B8B2826EA5D00CF83DE /* SearchTab */ = {
+			isa = PBXGroup;
+			children = (
+				80BA8B7C2823BC2E00CF83DE /* SearchViewController.swift */,
+				80BA8B89282613DA00CF83DE /* SearchViewModel.swift */,
+				80BA8B922826EE1E00CF83DE /* Word Detail */,
+			);
+			path = SearchTab;
+			sourceTree = "<group>";
+		};
+		80BA8B922826EE1E00CF83DE /* Word Detail */ = {
+			isa = PBXGroup;
+			children = (
+				80BA8B8C2826EA7500CF83DE /* WordDetailViewController.swift */,
+				80BA8B8E2826EB6100CF83DE /* WordDetailViewModel.swift */,
+				80BA8B902826EC9000CF83DE /* DictionaryAPI.swift */,
+			);
+			path = "Word Detail";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8063FA80282383260084FE1B /* DaleChall */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8063FAAB282383280084FE1B /* Build configuration list for PBXNativeTarget "DaleChall" */;
+			buildPhases = (
+				8063FA7D282383260084FE1B /* Sources */,
+				8063FA7E282383260084FE1B /* Frameworks */,
+				8063FA7F282383260084FE1B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DaleChall;
+			productName = DaleChall;
+			productReference = 8063FA81282383260084FE1B /* DaleChall.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8063FA96282383280084FE1B /* DaleChallTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8063FAAE282383280084FE1B /* Build configuration list for PBXNativeTarget "DaleChallTests" */;
+			buildPhases = (
+				8063FA93282383280084FE1B /* Sources */,
+				8063FA94282383280084FE1B /* Frameworks */,
+				8063FA95282383280084FE1B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8063FA99282383280084FE1B /* PBXTargetDependency */,
+			);
+			name = DaleChallTests;
+			productName = DaleChallTests;
+			productReference = 8063FA97282383280084FE1B /* DaleChallTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8063FAA0282383280084FE1B /* DaleChallUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8063FAB1282383280084FE1B /* Build configuration list for PBXNativeTarget "DaleChallUITests" */;
+			buildPhases = (
+				8063FA9D282383280084FE1B /* Sources */,
+				8063FA9E282383280084FE1B /* Frameworks */,
+				8063FA9F282383280084FE1B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8063FAA3282383280084FE1B /* PBXTargetDependency */,
+			);
+			name = DaleChallUITests;
+			productName = DaleChallUITests;
+			productReference = 8063FAA1282383280084FE1B /* DaleChallUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8063FA79282383260084FE1B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					8063FA80282383260084FE1B = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+					8063FA96282383280084FE1B = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = 8063FA80282383260084FE1B;
+					};
+					8063FAA0282383280084FE1B = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = 8063FA80282383260084FE1B;
+					};
+				};
+			};
+			buildConfigurationList = 8063FA7C282383260084FE1B /* Build configuration list for PBXProject "DaleChall" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8063FA78282383260084FE1B;
+			productRefGroup = 8063FA82282383260084FE1B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8063FA80282383260084FE1B /* DaleChall */,
+				8063FA96282383280084FE1B /* DaleChallTests */,
+				8063FAA0282383280084FE1B /* DaleChallUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8063FA7F282383260084FE1B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8063FA91282383280084FE1B /* LaunchScreen.storyboard in Resources */,
+				8063FA8E282383280084FE1B /* Assets.xcassets in Resources */,
+				80BA8B882823C5EF00CF83DE /* dale_chall_easy.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8063FA95282383280084FE1B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8063FA9F282383280084FE1B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8063FA7D282383260084FE1B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8063FA89282383260084FE1B /* TabViewController.swift in Sources */,
+				80BA8B812823BC4F00CF83DE /* CalcViewController.swift in Sources */,
+				80BA8B8A282613DA00CF83DE /* SearchViewModel.swift in Sources */,
+				80BA8B8F2826EB6100CF83DE /* WordDetailViewModel.swift in Sources */,
+				8063FA85282383260084FE1B /* AppDelegate.swift in Sources */,
+				80BA8B7D2823BC2E00CF83DE /* SearchViewController.swift in Sources */,
+				80BA8B8D2826EA7500CF83DE /* WordDetailViewController.swift in Sources */,
+				80BA8B862823BEA400CF83DE /* DaleChallCalc.swift in Sources */,
+				80BA8B912826EC9000CF83DE /* DictionaryAPI.swift in Sources */,
+				8063FA87282383260084FE1B /* SceneDelegate.swift in Sources */,
+				80BA8B7F2823BC3B00CF83DE /* InfoViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8063FA93282383280084FE1B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8063FA9C282383280084FE1B /* DaleChallTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8063FA9D282383280084FE1B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8063FAA6282383280084FE1B /* DaleChallUITests.swift in Sources */,
+				8063FAA8282383280084FE1B /* DaleChallUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8063FA99282383280084FE1B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8063FA80282383260084FE1B /* DaleChall */;
+			targetProxy = 8063FA98282383280084FE1B /* PBXContainerItemProxy */;
+		};
+		8063FAA3282383280084FE1B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8063FA80282383260084FE1B /* DaleChall */;
+			targetProxy = 8063FAA2282383280084FE1B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8063FA8F282383280084FE1B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8063FA90282383280084FE1B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8063FAA9282383280084FE1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8063FAAA282383280084FE1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8063FAAC282383280084FE1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5RDRR49H3G;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DaleChall/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.robertlinnemann.DaleChall;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8063FAAD282383280084FE1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5RDRR49H3G;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DaleChall/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.robertlinnemann.DaleChall;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8063FAAF282383280084FE1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5RDRR49H3G;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.robertlinnemann.DaleChallTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DaleChall.app/DaleChall";
+			};
+			name = Debug;
+		};
+		8063FAB0282383280084FE1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5RDRR49H3G;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.robertlinnemann.DaleChallTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DaleChall.app/DaleChall";
+			};
+			name = Release;
+		};
+		8063FAB2282383280084FE1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5RDRR49H3G;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.robertlinnemann.DaleChallUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DaleChall;
+			};
+			name = Debug;
+		};
+		8063FAB3282383280084FE1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5RDRR49H3G;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.robertlinnemann.DaleChallUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DaleChall;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8063FA7C282383260084FE1B /* Build configuration list for PBXProject "DaleChall" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8063FAA9282383280084FE1B /* Debug */,
+				8063FAAA282383280084FE1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8063FAAB282383280084FE1B /* Build configuration list for PBXNativeTarget "DaleChall" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8063FAAC282383280084FE1B /* Debug */,
+				8063FAAD282383280084FE1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8063FAAE282383280084FE1B /* Build configuration list for PBXNativeTarget "DaleChallTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8063FAAF282383280084FE1B /* Debug */,
+				8063FAB0282383280084FE1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8063FAB1282383280084FE1B /* Build configuration list for PBXNativeTarget "DaleChallUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8063FAB2282383280084FE1B /* Debug */,
+				8063FAB3282383280084FE1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8063FA79282383260084FE1B /* Project object */;
+}
